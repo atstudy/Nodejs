@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+
+	<!-- bootstrap http://getbootstrap.com/getting-started/#download -->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+<!-- http://fontawesome.io/get-started/ -->
+
+  <script src="https://use.fontawesome.com/39ce94283f.js"></script>
+
+
+  </head>
+  <body>
+
+  <!-- 引用bootstrap navbar -->
+ 
+ 
+    {{> header}}
+
+    <!-- https://jquery.com/download/ -->
+  <script
+    src="/bootstrap/jquery.min.js"></script>
+
+<!-- 这个应该是用的jQuery的类方法 -->
+  <div class="container">
+    {{{body}}}
+  </div>
+
+	<!-- bootstrap http://getbootstrap.com/getting-started/#download -->
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="/bootstrap/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
